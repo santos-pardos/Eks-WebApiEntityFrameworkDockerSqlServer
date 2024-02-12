@@ -22,7 +22,7 @@ spec:
   selector:
     matchLabels:
       app: dotnetapp
-      tier: mysql
+      tier: mssql
   strategy:
     type: Recreate
   template:
