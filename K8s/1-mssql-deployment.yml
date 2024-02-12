@@ -9,7 +9,7 @@ spec:
     - port: 1433
   selector:
     app: dotnetapp
-    tier: mysql
+    tier: mssql
   clusterIP: None
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
@@ -29,14 +29,14 @@ spec:
     metadata:
       labels:
         app: dotnetapp
-        tier: mysql
+        tier: mssql
     spec:
       terminationGracePeriodSeconds: 10
       securityContext:
         fsGroup: 1000
       containers:
       - name: docker-compose-dotnet-core-and-mssql-db
-        image: 381492085613.dkr.ecr.us-east-1.amazonaws.com/demo:docker-compose-dotnet-core-and-mssql-db
+        image: santospardos/sanvalero:mssql-server-2022
         env:
         - name: MSSQL_PID
           value: "Express"
