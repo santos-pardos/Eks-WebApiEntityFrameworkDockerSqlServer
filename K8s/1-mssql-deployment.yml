@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: db
+  name: sql_server2022
   labels:
     app: dotnetapp
 spec:
