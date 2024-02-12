@@ -15,4 +15,8 @@ https://www.base64decode.org/
 docker pull santospardos/sanvalero:mssql-2022
 docker pull santospardos/sanvalero:eks-webapientityframeworkdockersqlserver-web_api
 ```
+## URL
+```
+http://public-ip/5000/products
+```
 
