@@ -12,7 +12,7 @@ https://www.base64decode.org/
 ```
 ## Docker hub
 ```
-docker pull santospardos/sanvalero:mssql-server-2022
-docker pull sanvalero:webapientityframeworkdockersqlserver-web_api
+docker pull santospardos/sanvalero:mssql-2022
+docker pull santospardos/sanvalero:eks-webapientityframeworkdockersqlserver-web_api
 ```
 
