@@ -33,6 +33,6 @@ spec:
     spec:
       containers:
       - name: docker-compose-dotnet-core-and-mssql-app
-        image: santospardos/sanvalero:eks-webapientityframeworkdockersqlserver-web_api
+        image: santospardos/sanvalero:web_api
         ports:
         - containerPort: 80
