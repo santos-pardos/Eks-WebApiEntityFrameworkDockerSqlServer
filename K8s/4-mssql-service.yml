@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: db
-  name: db
+    app: sql-server2022
+  name: sql-server2022
 spec:
-  externalName: db.clwku2ggm204.us-east-1.rds.amazonaws.com
+  externalName: sql-server2022.clwku2ggm204.us-east-1.rds.amazonaws.com
   selector:
-    app: db
+    app: sql-server2022
   type: ExternalName
 status:
   loadBalancer: {}
